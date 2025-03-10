@@ -17,6 +17,5 @@ void loop()
 {
   const char text[] = "Hello!";
   radio.write(&text, sizeof(text));
-
   delay(1000);
 }
